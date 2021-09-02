@@ -2,24 +2,24 @@
 
 <hr>
 顺带学习一下GitDoc的使用规则
-参考：
-https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[参考链接](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-## TCP 的三次握手四次挥手
+## 1. TCP 的三次握手四次挥手
 
 答：
 客户端 open, server listen
 客户端向服务器发送，syn=1,ack=0 ,seq=w 请求， 客户端 syn-sent
 服务器返回，syn=1 ,seq =u,ack=w+1,请求 , 客户端，syn-sent
 客户端向服务器返回收到的确认，syn=1,ack= u+1， established
+[参考链接](https://www.pianshen.com/article/6422926311/)
 
-## post 请求和 get 请求存放参数位置
+## 2. post 请求和 get 请求存放参数位置
 
 答：
 post 请求和 get 请求存放参数位置是不同的：
 post 方式参数存放在请求数据包的消息体中。 get 方式参数存放在请求数据包的请求行的 URI 字段中
 
-## HashMap 和 HashSet 的区别：
+## 3. HashMap 和 HashSet 的区别：
 
 答：
 定义：
@@ -29,23 +29,21 @@ HashSet： HashSet 实现了 Set 接口，它不允许集合中有重复的值�
 
 # 滴滴 第一轮
 
-## 简单介绍自己
+## 1. 简单介绍自己
 
 答：
 根据自己的以往经历，不要默背简历内容，主要讲讲技术经历，靠近 JD 需求的项目经历，所用过的计算机语言，在项目中主要负责的地方都有哪里，做过多长时间，前一份工作具体辞职的原因，等等，不要太长尽量保持在 5-8 分钟
 
-## ES6 有哪些更新
+## 2. ES6 有哪些更新
 
 答：
 
-##
-
-## 你为什么会选择 Vue 作为主要开发工具，它的好处在哪里？
+## 3. 你为什么会选择 Vue 作为主要开发工具，它的好处在哪里？
 
 面试官答：
 要从架构和封装的角度去分析这个工具的优点，还有你使用它的原因。
 
-## 解释下原型继承的原理。
+## 4. 解释下原型继承的原理。
 
 A:原型继承的基础是原型链查找。 原型链查找基本概念：
 
@@ -53,27 +51,26 @@ A:原型继承的基础是原型链查找。 原型链查找基本概念：
 每一个函数都可以通过 new 关键字化身成为一个类构造函数，new F 会产生一个对象 O
 在调用对象的某个属性或者方法，比如 http://O.xxx 的时候，会首先查找对象自身是否有这个方法或者属性，如果没找到就会去对象的构造函数的原型对象中查找（注意有两个定语），也就是查找 O 的构造函数 F 的原型对象 http://F.prototype.xxx
 F.prototype 也是一个对象，查找 http://F.prototype.xxx 的时候会重复第 3 步的过程
-参考：
-
+[参考链接-待补充]()
 深入理解 javascript 原型继承
 JavaScript 原型继承工作原理
 Prototypal Inheritance in JavaScript
 
-## Apply, call, bind 等语法的应用
+## 5. Apply, call, bind 等语法的应用
 
 答：
 
-## Webpack 里的 loader 用法
+## 6. Webpack 里的 loader 用法
 
 答：
 
-## TS 老师想考，但我 JS 水平较弱没考我，感谢
+## 7. TS 老师想考，但我 JS 水平较弱没考我，感谢
 
-## 了解 React Hook，还有生命周期吗？都有哪些应用
+## 8. 了解 React Hook，还有生命周期吗？都有哪些应用
 
 这里我谈到了 State 和 Effect 的 Hook，生命周期还需要再去复习一下
 
-## Vue 的生命周期，以及 Vuex 的应用场景
+## 9. Vue 的生命周期，以及 Vuex 的应用场景
 
 Vue 的生命周期从 before Create 开始到 deactivated。
 Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
@@ -81,7 +78,7 @@ Vuex 可以帮助我们管理共享状态，并附带了更多的概念和框架
 
 ### 写代码
 
-## JS：用一段 JS 代码写一个继承
+## 1. JS：用一段 JS 代码写一个继承
 
 答：
 1、原型链
@@ -90,13 +87,13 @@ Vuex 可以帮助我们管理共享状态，并附带了更多的概念和框架
 4、原型式继承
 5、寄生式继承
 6、寄生组合式继承（组合使用组合继承和寄生式继承）
-参考：https://www.huaweicloud.com/articles/a4e74114bd901aa952606d5d1ce48a58.html
+[参考链接](https://www.huaweicloud.com/articles/a4e74114bd901aa952606d5d1ce48a58.html)
 
-## 都了解那些 Sort 排序算法？写一个 Quick Sorting
+## 2. 都了解那些 Sort 排序算法？写一个 Quick Sorting
 
 答：我当时回答的是三个，Quick Sorting，Shell Sorting, Merge Sorting，应该还有其他的
 
-## CSS：写一段左中右格式的 html 代码，有几种方式让左侧和右侧的宽度限制一个固定的宽度，中间的自适应屏幕尺寸
+## 3. CSS：写一段左中右格式的 html 代码，有几种方式让左侧和右侧的宽度限制一个固定的宽度，中间的自适应屏幕尺寸
 
 答：
 
@@ -137,8 +134,3 @@ A: 第一行是定义了一个函数 Person()；第二行代码是执行函数 P
 A: ==（相等运算法），===（严格相等运算符） JavaScript 对象的比较是引用的比较，非值的比较，对象和其本身相等，和其他任何对象不相等。 === 首先计算其操作数的值，然后比较，比较过程无任何类型转换。 == 如果两个操作数不是同一类型的，则相等运算符进行一些类型转换进行比较。 == 这里截取 JavaScript 相等表格上的的两张图片让大家更为直观的感受下。
 
 ## 说一下 BFC
-
-## TCP 的三次握手
-
-参考：
-https://www.pianshen.com/article/6422926311/
