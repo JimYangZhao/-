@@ -35,6 +35,8 @@ HashSet： HashSet 实现了 Set 接口，它不允许集合中有重复的值�
 
 答：
 
+##
+
 ## 你为什么会选择 Vue 作为主要开发工具，它的好处在哪里？
 
 面试官答：
@@ -54,7 +56,7 @@ F.prototype 也是一个对象，查找 http://F.prototype.xxx 的时候会重�
 JavaScript 原型继承工作原理
 Prototypal Inheritance in JavaScript
 
-## Apply, call 等语法的应用
+## Apply, call, bind 等语法的应用
 
 答：
 
@@ -86,6 +88,10 @@ Vuex 可以帮助我们管理共享状态，并附带了更多的概念和框架
 5、寄生式继承
 6、寄生组合式继承（组合使用组合继承和寄生式继承）
 参考：https://www.huaweicloud.com/articles/a4e74114bd901aa952606d5d1ce48a58.html
+
+## 都了解那些 Sort 排序算法？写一个 Quick Sorting
+
+答：我当时回答的是三个，Quick Sorting，Shell Sorting, Merge Sorting，应该还有其他的
 
 ## CSS：写一段左中右格式的 html 代码，有几种方式让左侧和右侧的宽度限制一个固定的宽度，中间的自适应屏幕尺寸
 
