@@ -9,7 +9,7 @@
 客户端向服务器返回收到的确认，syn=1,ack= u+1， established ——[参考链接](https://www.pianshen.com/article/6422926311/)
 <br><br>
 
-<div align=center>![image](img/TCP三次握手.png)</div>
+<div style="margin:auto;text-align:center;">![image](img/TCP三次握手.png)</div>
 
 ## 2. post 请求和 get 请求存放参数位置
 
