@@ -8,11 +8,12 @@
 客户端向服务器发送，syn=1,ack=0 ,seq=w 请求， 客户端 syn-sent
 服务器返回，syn=1 ,seq =u,ack=w+1,请求 , 客户端，syn-sent
 客户端向服务器返回收到的确认，syn=1,ack= u+1， established —— [参考链接](https://www.pianshen.com/article/6422926311/)
-<br>
+
+
+```
 
 <div style="text-align:center"><img src="img/TCP三次握手.png" style="text-align:center;margin:auto" alt="img">
 </div>
-```
 
 ## Top2. post 请求和 get 请求存放参数位置
 
