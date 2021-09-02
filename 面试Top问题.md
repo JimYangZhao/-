@@ -12,7 +12,7 @@
 
 ```
 
-<div style="text-align:center"><img src="img/TCP三次握手.png" style="text-align:center;margin:auto" alt="img">
+<div style="text-align:center"><img width="300px" height="300px" src="img/TCP三次握手.png" style="text-align:center;margin:auto" alt="img">
 </div>
 
 ## Top2. post 请求和 get 请求存放参数位置
