@@ -3,6 +3,13 @@
 <hr>
 顺带学习一下GitDoc的使用规则 —— [参考链接](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+# 近期计划：
+
+- [] 京东
+  时间：周一晚上 6pm，电话
+- [] 滴滴出行
+  时间：周三晚上 7pm，Umeet
+
 # 已经面试过了的公司：
 
 ## 一线互联网大厂：
