@@ -1,6 +1,9 @@
 # 总结以往的面试经验，从哪里失败就在那里站起来！
 
 <hr>
+顺带学习一下GitDoc的使用规则
+参考：
+https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ## TCP 的三次握手四次挥手
 
@@ -24,7 +27,7 @@ HashMap： HashMap 实现了 Map 接口，Map 接口对键值对进行映射。M
 
 HashSet： HashSet 实现了 Set 接口，它不允许集合中有重复的值，当我们提到 HashSet 时，第一件事情就是在将对象存储在 HashSet 之前，要先确保对象重写 equals()和 hashCode()方法，这样才能比较对象的值是否相等，以确保 set 中没有储存相等的对象。如果我们没有重写这两个方法，将会使用这个方法的默认实现。
 
-### 滴滴 第一轮
+# 滴滴 第一轮
 
 ## 简单介绍自己
 
@@ -108,7 +111,7 @@ Vuex 可以帮助我们管理共享状态，并附带了更多的概念和框架
 
 答：
 
-### 其他面试
+# 其他面试
 
 问题：从输入 URL 到页面发生了什么？
 答：域名解析，发送请求，解析 HTML 文档，CSS 解析，布局阶段，绘制阶段。
@@ -134,3 +137,8 @@ A: 第一行是定义了一个函数 Person()；第二行代码是执行函数 P
 A: ==（相等运算法），===（严格相等运算符） JavaScript 对象的比较是引用的比较，非值的比较，对象和其本身相等，和其他任何对象不相等。 === 首先计算其操作数的值，然后比较，比较过程无任何类型转换。 == 如果两个操作数不是同一类型的，则相等运算符进行一些类型转换进行比较。 == 这里截取 JavaScript 相等表格上的的两张图片让大家更为直观的感受下。
 
 ## 说一下 BFC
+
+## TCP 的三次握手
+
+参考：
+https://www.pianshen.com/article/6422926311/
