@@ -4,6 +4,7 @@
 
 <div style="text-align:center"><img width="300px" height="300px" src="img/TCP三次握手.png" style="text-align:center;margin:auto" alt="img">
 </div>
+
 ```
 答：
 客户端 open, server listen
