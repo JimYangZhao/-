@@ -40,7 +40,15 @@ HashSet： HashSet 实现了 Set 接口，它不允许集合中有重复的值�
 ## Top5. 什么是闭包，如何使用它，为什么要使用它？
 
 ```
-答
+答：闭包是指有权访问另一个函数作用域中变量的函数，
+
+创建闭包的最常见的方式就是
+
+在一个函数内创建另一个函数，通过另一个函数访问这个函数的局部变量,利用闭包可以突破作用链域，将函数内部的变量和方法传递到外部。
+
+简单的说：在一个函数里面嵌套另一个函数，被嵌套的那个函数的作用域是一个闭包。
+[参考](https://zhuanlan.zhihu.com/p/54853560)
+
 ```
 
 ## Top6. 指出下列代码的区别：
@@ -74,3 +82,30 @@ A: ==（相等运算法），===（严格相等运算符） JavaScript 对象的
 ```
 
 [参考](https://juejin.cn/post/6844904001880719373)
+
+## Top10. vue 核心面试题：组件中的 data 为什么是一个函数？
+
+[参考](https://blog.csdn.net/qq_42072086/article/details/108060494)
+
+## Promise 有几种状态？
+
+1. pending
+   1.1 初始的状态, 可改变.
+   1.2 ⼀个 promise 在 resolve 或者 reject 前都处于这个状态。
+   1.3 可以通过 resolve fulfilled 状态;
+   1.4 可以通过 reject rejected 状态;
+
+2. fulfilled
+   2.1 最终态, 不可变.
+   2.2 ⼀个 promise 被 resolve 后会变成这个状态.
+   2.3 必须拥有⼀个 value 值
+
+3. rejected
+   3.1 最终态, 不可变.
+   3.2 ⼀个 promise 被 reject 后会变成这个状态
+   3.3 必须拥有⼀个 reason
+
+Tips: 总结⼀下, 就是 promise 的状态流转是这样的
+
+pending resolve(value) fulfilled
+pending reject(reason) rejected
